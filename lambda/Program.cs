@@ -25,13 +25,17 @@ namespace lambda
             action = (string s) => Console.WriteLine(s); // ~delegate void KIEU(string s) = Action<string>
             ShowLog show = (string s) => Console.WriteLine(s);
             show("Phuong Phu Tho");
-            //(int a, int b) =>
-            //{
-            //    int kq = a + b;
-            //    return kq;
-            //}
+            
+            Func<int, int, int> func;
+            func = (int a, int b) =>
+            {
+                int kq = a + b;
+                return kq;
+            };
+            int x = func.Invoke(1, 2);
+            Console.WriteLine(x);
+           
             action?.Invoke("xin chao");
-
             Action thong_bao;
             thong_bao = () => Console.WriteLine("Phuong");
 
