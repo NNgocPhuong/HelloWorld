@@ -22,7 +22,7 @@ namespace CsEvent
             while (true);
         } 
     }
-
+    // tính căn
     class TinhCan
     {
         public void Sub(UserInput input)
