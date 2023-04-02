@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestructorStaticOverloading
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "Exception\Exception.csproj", "{B82E7D2D-2F2F-4402-A33E-3D0760E40320}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection_List", "Collection_List\Collection_List.csproj", "{AD8062A0-CAE5-4B55-B933-EF3F9F1D6634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B82E7D2D-2F2F-4402-A33E-3D0760E40320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B82E7D2D-2F2F-4402-A33E-3D0760E40320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B82E7D2D-2F2F-4402-A33E-3D0760E40320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8062A0-CAE5-4B55-B933-EF3F9F1D6634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8062A0-CAE5-4B55-B933-EF3F9F1D6634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8062A0-CAE5-4B55-B933-EF3F9F1D6634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8062A0-CAE5-4B55-B933-EF3F9F1D6634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
