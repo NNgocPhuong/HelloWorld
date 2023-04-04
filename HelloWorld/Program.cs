@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    public class Program
+    public class Programb
     {
+        enum a { mon = 2, tue, web, thus, fri, sat, sun };
+
         static void Main(string[] args)
         {
             //Dictionary<int, string> dic = new Dictionary<int, string>();
@@ -23,6 +25,11 @@ namespace HelloWorld
             //    i++;
             //}
             XinChao.Class1.Chao();
+            
+
+            
+            Console.WriteLine(Convert.ToInt32(a.fri));
+            
             Console.ReadKey();
         }
     }
