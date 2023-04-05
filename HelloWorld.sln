@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary_And_HashSet", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollection", "Observable\ObservableCollection.csproj", "{08D719CC-7C5C-4F38-869A-9AFF4EBEE912}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewDelegate", "ReviewDelegate\ReviewDelegate.csproj", "{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{08D719CC-7C5C-4F38-869A-9AFF4EBEE912}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08D719CC-7C5C-4F38-869A-9AFF4EBEE912}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08D719CC-7C5C-4F38-869A-9AFF4EBEE912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
