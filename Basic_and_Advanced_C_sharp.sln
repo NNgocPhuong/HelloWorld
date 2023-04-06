@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollection", "Obs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewDelegate", "ReviewDelegate\ReviewDelegate.csproj", "{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewEventAndEventHandler", "ReviewEventAndEventHandler\ReviewEventAndEventHandler.csproj", "{6539E0FB-FBFA-449E-AF11-3B5DE5466162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewEvent_part_two", "ReviewEvent_part_two\ReviewEvent_part_two.csproj", "{C4499163-6EE0-4CA2-8B2E-C19FE3EF1164}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C5CA3C5-5C44-42DA-A0DE-88C66D3F1A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6539E0FB-FBFA-449E-AF11-3B5DE5466162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6539E0FB-FBFA-449E-AF11-3B5DE5466162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6539E0FB-FBFA-449E-AF11-3B5DE5466162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6539E0FB-FBFA-449E-AF11-3B5DE5466162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4499163-6EE0-4CA2-8B2E-C19FE3EF1164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4499163-6EE0-4CA2-8B2E-C19FE3EF1164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4499163-6EE0-4CA2-8B2E-C19FE3EF1164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4499163-6EE0-4CA2-8B2E-C19FE3EF1164}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
