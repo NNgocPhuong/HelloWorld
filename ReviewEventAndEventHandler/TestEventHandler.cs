@@ -23,7 +23,7 @@ namespace TestEventHandler
     {
         //public delegate void NotifyNews(object data);
         //public event NotifyNews event_News;
-        public event EventHandler event_News;
+        public event EventHandler<myEventArgs> event_News;
         public void send()
         {
             event_News?.Invoke(this,new myEventArgs("Co tin moi"));
@@ -33,6 +33,7 @@ namespace TestEventHandler
     {
         public void Sub(publisher p)
         {
+            p.event_News += chao_hoi;
             p.event_News += ReceiverFromPublisher;
         }
 
@@ -41,12 +42,18 @@ namespace TestEventHandler
             myEventArgs a = (myEventArgs)e;
             Console.WriteLine("SubsriberA: "+ a.Data);
         }
+        
+        void chao_hoi(object sender, myEventArgs e)
+        {
+            Console.WriteLine("Xin chao minh la subA");
+        }
     }
     public class SubscriberB
     {
         public void Sub(publisher p)
         {
             //p.event_News = null;  // Hủy các đối tượng khác nhận sự kiện
+            p.event_News += chao_hoi;
             p.event_News += ReceiverFromPublisher;
         }
 
@@ -54,6 +61,11 @@ namespace TestEventHandler
         {
             myEventArgs a = (myEventArgs)e;
             Console.WriteLine("SubscriberB: " + a.Data);
+        }
+
+        void chao_hoi(object sender, myEventArgs e)
+        {
+            Console.WriteLine("Hello, I am subB");
         }
     }
 
